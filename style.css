@@ -6,3 +6,13 @@
     --cor-botao: #FFA552;
     --fonte-do-main: #FFA552;
 }
+.cabecalho {
+    background-color: var(--cor-fundo-cabecalho);
+    color: var(--cor-branco);
+    display: flex;
+    justify-content: center;
+}
+    .cabecalho__titulo {
+        font-weight: 500;
+        margin: 12px;
+    }
