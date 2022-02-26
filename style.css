@@ -6,9 +6,6 @@
     --cor-botao: #FFA552;
     --fonte-do-main: #FFA552;
 }
-body {
-    margin: 0;
-}
 .cabecalho {
     background-color: var(--cor-fundo-cabecalho);
     height: 30px;
@@ -44,8 +41,44 @@ body {
 .principal{
     margin: 0;
 }
-    .principal__capa {}
-        .principal__capa--imagem {
-            height: 219px;
-            width: 100vw;
-        }    
+    .principal__capa {
+        display: flex;
+        overflow-x: scroll;
+    }
+        .principal__capa--opcoes {
+            display: flex;
+            ;
+        }
+            .opcao__imagem {
+                height: 219px;
+                width: 100vw;
+            } 
+    .principal__destaque {
+        
+    } 
+        .principal__destaque--titulo{
+            display: flex;
+            justify-content: center;
+            color: var(--fonte-do-main);
+            font-size: 20px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .principal__destaque--opcao{
+            background-color: var(--cor-funfo-opcoes);
+            padding: 20px;
+            margin: 0 10px;
+            border-radius: 20px;
+        }
+        .principal__destaque--opcoes {
+            display: flex;
+            overflow-x: scroll;
+            margin-left: 20px;
+            margin-right: 20px;
+            cursor: pointer;
+            
+        }
+            .opcao__imagem--destaque {
+                height: 219px;
+                width: 100vw; 
+            }
