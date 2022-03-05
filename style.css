@@ -120,7 +120,7 @@ body {
         margin: 0 30px;
     }
     .principal__ofertas--opcao {
-        margin: 20px;
+        margin: 25px;
         background-color: var(--cor-funfo-opcoes);
         padding: 20px;
         border-radius: 30px;
@@ -170,7 +170,7 @@ body {
         min-width: 270px;
         margin: 0 10px;
         border-radius: 20px;
-        box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
     }
         .principios__opcao--titulo {
             color: var(--fonte-do-main);
