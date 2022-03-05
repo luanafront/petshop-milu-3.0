@@ -146,60 +146,12 @@ body {
         left: -20px;
         box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     }
-.principal__principios {
-    padding-bottom: 30px;
-}
+.principal__principios {}
     .principal__principios--titulo {
         display: flex;
         justify-content: center;
         color: var(--fonte-do-main);
         font-size: 20px;
         font-weight: bold;
-        margin: 20px  ;
+        margin-top: 20px  ;
     }
-    .principal__principios--opcoes {
-        display: flex;
-        overflow-x: scroll;
-        margin-left: 20px;
-        margin-right: 20px;
-        cursor: pointer;
-    }
-    .principal__principios--opcao{
-        background-color: var(--cor-funfo-opcoes);
-        padding: 20px;
-        min-width: 270px;
-        margin: 0 10px;
-        border-radius: 20px;
-        box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-    }
-        .principios__opcao--titulo {
-            color: var(--fonte-do-main);
-            margin: 7px;
-        }
-        .principios__opcao--texto {
-            color: #f08522;
-        }
-    .princieos {
-        display: flex;
-        justify-content: space-between;
-    }
-.rodape {
-    background-color: var(--cor-fundo-cabecalho);
-}
-    .rodape__contatos{}
-        .rodape__contatos--opcaoes {
-            display: flex;
-            justify-content: center;
-        }
-            .contatos__opcao {
-                padding: 8px;
-            }
-                .opcao__titulo{
-                   color:var(--cor-funfo-opcoes)
-                }
-            .contatos {
-                color: var(--cor-funfo-opcoes);
-                font-size: 15px;
-            }
-
-
