@@ -66,11 +66,10 @@ body {
     }
         .principal__capa--opcoes {
             display: flex;
-            ;
         }
             .opcao__imagem {
-                height: 219px;
-                width: 100vw;
+                height: 160px;
+                width: 77vw;
             } 
     .principal__destaque {
         
@@ -124,6 +123,8 @@ body {
         background-color: var(--cor-funfo-opcoes);
         padding: 20px;
         border-radius: 30px;
+        display: flex;
+        justify-content: center;
         position: relative;
         box-shadow: rgba(207, 106, 12, 0.925) 0px 15px 25px, rgba(207, 106, 12, 0.925) 0px 5px 10px;
     }
