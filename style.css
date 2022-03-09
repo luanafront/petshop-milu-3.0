@@ -68,8 +68,8 @@ body {
             display: flex;
         }
             .opcao__imagem {
-                height: 160px;
-                width: 77vw;
+                height: 170px;
+                width: 100vw;
             } 
     .principal__destaque {
         
@@ -99,8 +99,8 @@ body {
             
         }
             .opcao__imagem--destaque {
-                height: 219px;
-                width: 100vw; 
+                height: 150px;
+                width: 70vw; 
             }
 .principal__ofertas {
         
