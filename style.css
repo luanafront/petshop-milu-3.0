@@ -203,7 +203,9 @@ body {
                 font-size: 13px;
             }
 @media (max-width:815px) {
-    
-   
+    .principal `{
+        width: 70%;
+        height: 210px;
+    }
 
 
