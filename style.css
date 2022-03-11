@@ -202,11 +202,15 @@ body {
                 color: var(--cor-funfo-opcoes);
                 font-size: 13px;
             }
-@media (max-width:815px) {
+@media (max-width:600x) {
     .principal__capa {}
         .opcao__imagem {
             height: 340px;
             width: 100vw;
     }
+        .opcao__imagem--destaque {
+            height: 200px;
+            width: 800vw;
+        }
 
 
