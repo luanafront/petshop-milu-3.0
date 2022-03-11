@@ -203,9 +203,10 @@ body {
                 font-size: 13px;
             }
 @media (max-width:815px) {
-    .principal `{
-        width: 70%;
-        height: 210px;
+    .principal__capa {}
+        .opcao__imagem {
+            height: 340px;
+            width: 100vw;
     }
 
 
