@@ -202,15 +202,17 @@ body {
                 color: var(--cor-funfo-opcoes);
                 font-size: 13px;
             }
-@media (max-width:600x) {
+@media (min-width:750px) {
     .principal__capa {}
         .opcao__imagem {
-            height: 340px;
-            width: 100vw;
+            display: block;
+            margin: 15px auto 0 auto;
+            height: 350px;
+            width: 729px;
+    }
     }
         .opcao__imagem--destaque {
-            height: 200px;
-            width: 800vw;
+            height: 235px;
+            width: 396px;;
         }
-
-
+}
