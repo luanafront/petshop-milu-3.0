@@ -225,6 +225,9 @@ body {
        .principal__principios--opcoes {
             overflow-x: visible;
        }
+       .principal__destaque--titulo , .principal__ofertas--titulo, .principal__principios--titulo {
+           font-size: 30px;
+       }
 }
 @media (max-width:1000px) {
     .principal__principios--opcoes {
