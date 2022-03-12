@@ -108,7 +108,7 @@ body {
         .principal__ofertas--opcoes {
             display: flex;
             flex-direction: column;
-            margin: 0 30px;
+            margin: 0 35px;
         }
         .principal__ofertas--opcao {
             margin: 25px;
@@ -203,15 +203,24 @@ body {
             width: 729px;
     }
         .opcao__imagem--destaque {
-            height: 153px;
-            width: 284px;
+            height: 247px;
+            width: 425px;
+        }
+        .principal__ofertas--opcoes {
+            margin: 5px 565px;
+            display: flex;
+            
         }
         .principal__ofertas--opcao {
-            padding: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            
         }
         .opcao__imagem--ofertas {
-            height: 250px;
-            width: 42vw;
+            height: 298px;
+            width: 23vw;
         }
        
 }
