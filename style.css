@@ -207,20 +207,27 @@ body {
             width: 425px;
         }
         .principal__ofertas--opcoes {
-            margin: 5px 565px;
             display: flex;
-            
+            align-items: center;
+            align-content: stretch;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+
         }
         .principal__ofertas--opcao {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            align-items: center;
-            
+            max-width: 294px;
         }
         .opcao__imagem--ofertas {
             height: 298px;
-            width: 23vw;
+            width: 100%;
         }
-       
+       .principal__principios--opcoes {
+            overflow-x: visible;
+       }
+}
+@media (max-width:1000px) {
+    .principal__principios--opcoes {
+        overflow-x: scroll;
+   }
 }
