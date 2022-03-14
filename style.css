@@ -28,7 +28,7 @@ body {
         .fatia {
             height: 3px;
             width: 100%;
-            background-color: var(--cor-branco);
+            background-color: var(--cor-funfo-opcoes);
             transition: .5s;
         }
         .fatia1-clicada {
@@ -51,7 +51,6 @@ body {
         z-index: 2;
         transition: .5s;
         overflow: hidden;
-
     }
         .opcoes-clicada {
             width: 80vw;
@@ -81,16 +80,24 @@ body {
             padding: 20px;
             margin: 0 10px;
             border-radius: 20px;
-            box-shadow: rgba(207, 106, 12, 0.925) 0px 0.0625em 0.0625em, rgba(207, 106, 12, 0.925) 0px 0.125em 0.5em, rgba(207, 106, 12, 0.925) 0px 0px 0px 1px inset;
-            
+            box-shadow: rgba(207, 106, 12, 0.925) 0px 0.0625em 0.0625em, rgba(207, 106, 12, 0.925) 0px 0.125em 0.5em, rgba(207, 106, 12, 0.925) 0px 0px 0px 1px inset; 
         }
         .principal__destaque--opcoes {
             display: flex;
             overflow-x: scroll;
             margin-left: 20px;
             margin-right: 20px;
-            cursor: pointer;
-            
+            cursor: pointer; 
+        }
+        .principal__destaque--opcoes :: -webkit-scrollbar {
+            width:  12px;
+        }
+        .principal__destaque--opcoes :: -webkit-scrollbar-track {
+            bottom :  rgba ( 0 ,  0 ,  0 ,  0,193 );
+        }
+        .principal__destaque--opcoes :: -webkit-scrollbar-thumb {
+            background-color:  var(--cor-botao);
+            border-radius:  20px ;       
         }
             .opcao__imagem--destaque {
                 height: 153px;
