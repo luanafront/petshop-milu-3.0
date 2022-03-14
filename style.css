@@ -53,7 +53,10 @@ body {
         overflow: hidden;
     }
         .opcoes-clicada {
-            width: 80vw;
+            width: 30vw;
+            color: var(--cor-funfo-opcoes);
+            font-size: 30px;
+
         }
 .principal{
     margin: 0;
