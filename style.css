@@ -54,9 +54,11 @@ body {
     }
         .opcoes-clicada {
             width: 30vw;
+        }
+        .personalizar__texto {
             color: var(--cor-funfo-opcoes);
-            font-size: 30px;
-
+            font-size: 20px;
+            text-decoration: none;
         }
 .principal{
     margin: 0;
